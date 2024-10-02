@@ -1,0 +1,65 @@
+### GET /data/person - Get person data
+GET http://localhost:3000/data/person
+Content-Type: application/json
+
+###
+
+### DELETE /data/person/1 - Delete the person with ID 1
+DELETE http://localhost:3000/data/person/1
+Content-Type: application/json
+
+###
+
+### PATCH /data/person/2 - Update the person with ID 2
+PATCH http://localhost:3000/data/person/2
+Content-Type: application/json
+
+{
+    "name": "Sofie gewijzigd",
+    "age": 9
+}
+
+###
+
+### GET /data/search?q=Sofie - Full-text search
+GET http://localhost:3000/data/search?q=Sofie
+Content-Type: application/json
+
+###
+
+### GET /data/pet - Get pet data
+GET http://localhost:3000/data/pet
+Content-Type: application/json
+
+###
+
+### DELETE /data/pet/1 - Delete the pet with ID 1
+DELETE http://localhost:3000/data/pet/1
+Content-Type: application/json
+
+###
+
+### PATCH /data/pet/2 - Update the pet with ID 2
+PATCH http://localhost:3000/data/pet/2
+Content-Type: application/json
+
+{
+    "name": "Duvel gewijzigd"
+}
+
+###
+
+### GET /data/search?q=Sofie - Full-text search
+GET http://localhost:3000/data/search?q=duvel
+Content-Type: application/json
+
+###
+
+###
+
+### GET /data/non-existing - Test non-existing route
+GET http://localhost:3000/data/non-existing
+Content-Type: application/json
+
+
+###

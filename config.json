@@ -1,0 +1,30 @@
+[
+  {
+    "route": "person",
+    "properties": [
+      "name",
+      "age",
+      "petIds"
+    ],
+    "data": [
+      {
+        "id": 2,
+        "name": "Sofie gewijzigd",
+        "age": 9,
+        "petIds": []
+      }
+    ]
+  },
+  {
+    "route": "pet",
+    "properties": [
+      "name"
+    ],
+    "data": [
+      {
+        "id": 2,
+        "name": "Duvel gewijzigd"
+      }
+    ]
+  }
+]
