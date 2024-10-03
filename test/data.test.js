@@ -51,7 +51,7 @@ afterAll((done) => {
 test('GET /data/person should return person data', async () => {
     const response = await request(app)
         .get('/data/person')
-        .set('config', mockConfigPath); // Simulate the config file argument
+        .set('config', mockConfigPath);
 
     expect(response.statusCode).toBe(200);
     expect(response.body).toEqual([

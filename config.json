@@ -8,9 +8,18 @@
     ],
     "data": [
       {
+        "id": 1,
+        "name": "tim",
+        "age": 11,
+        "petIds": [
+          1,
+          2
+        ]
+      },
+      {
         "id": 2,
-        "name": "Sofie gewijzigd",
-        "age": 9,
+        "name": "sofie",
+        "age": 8,
         "petIds": []
       }
     ]
@@ -22,8 +31,12 @@
     ],
     "data": [
       {
+        "id": 1,
+        "name": "bliksem"
+      },
+      {
         "id": 2,
-        "name": "Duvel gewijzigd"
+        "name": "duvel"
       }
     ]
   }
